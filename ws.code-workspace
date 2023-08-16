@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "./backend",
+		},
+		{
+			"path": "./frontend",
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"backend": true,
+			"frontend": true,
+		},
+		"terminal.integrated.env.osx": {
+			"BACKEND_HOME": "${workspaceFolder}/backend",
+			"FRONTEND_HOME": "${workspaceFolder}/frontend",
+		}
+	}
+}
