@@ -5,5 +5,4 @@ source $BACKEND_HOME/.venv/bin/activate && pip install --upgrade pip
 pip install -r $BACKEND_HOME/requirements.txt
 
 
-source $BACKEND_HOME/.venv/bin/activate
-pip install -r $BACKEND_HOME/requirements.txt
+source backend/.venv/bin/activate

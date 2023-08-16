@@ -242,3 +242,7 @@ async def get_birthdate_meaning(birthdate: str):
     return { "day": day,
             "message" : message }
     
+@app.get("/print")
+async def print():
+    import os
+    return {"message": os.getenv("POSTGRES_DATABASE", "default message")}

@@ -16,8 +16,19 @@
 			"frontend": true,
 		},
 		"terminal.integrated.env.osx": {
-			"BACKEND_HOME": "${workspaceFolder}/backend",
-			"FRONTEND_HOME": "${workspaceFolder}/frontend",
-		}
+			// "BACKEND_HOME": "${workspaceFolder}/backend",
+			// "FRONTEND_HOME": "${workspaceFolder}/frontend",
+		},
+		"terminal.integrated.profiles.osx": {
+			"zsh": {
+				"path": "/bin/zsh",
+				"args": [
+					"-l",
+					"-i",
+					// "source setup.sh",
+				]
+			}
+		},
+		"terminal.integrated.defaultProfile.osx": "zsh",
 	}
 }
